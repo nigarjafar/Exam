@@ -1,0 +1,28 @@
+$mainWidth : 900px;
+$mainHeight: 600px;
+
+#main{
+  width:$mainWidth;
+  height:$mainHeight;
+  background:linen;
+  margin:0 auto;
+  .first-type{
+    width:$mainWidth/2-15;
+    height: $mainHeight/2-15;
+    background-color:plum;
+    display:inline-block;
+    margin:5px;
+  }
+  .second-type{
+    width:$mainWidth/3-15;
+    height: $mainHeight/2-15;
+    background-color: paleturquoise;
+    display:inline-block;
+    margin:5px;
+  }
+  span{
+    display:block;
+    font-size: 15px;
+  }
+
+}

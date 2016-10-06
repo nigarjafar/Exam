@@ -1,0 +1,24 @@
+#main {
+  width: 900px;
+  height: 600px;
+  background: linen;
+  margin: 0 auto;
+}
+#main .first-type {
+  width: 435px;
+  height: 285px;
+  background-color: plum;
+  display: inline-block;
+  margin: 5px;
+}
+#main .second-type {
+  width: 285px;
+  height: 285px;
+  background-color: paleturquoise;
+  display: inline-block;
+  margin: 5px;
+}
+#main span {
+  display: block;
+  font-size: 15px;
+}
